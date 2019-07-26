@@ -1,0 +1,9 @@
+Esta parte src contêm o exercicio resolvido maximizando a actividade dos filósofos;
+Existe pequenos problemas com a nossa solução, quando variamos o n sendo n o nº de filosofos, as vezes entra em deadlock pois aparecem pedidos vindos do nada. Infelizmente e apesar dos nossos esforços em encontrar o problema e corrigi-lo não fomos capazes de tal. Por isso para esses casos sugerimos que altere o numero de alguns parametros.
+
+Por exemplo para: n = 30, n = 50, ...
+Para corrigir estes casos mude o numero dos parametros:
+ -> ./simulation -n 30 -p 21 -s 21; ./simulation -n 30 -f 4 -k 4;
+ -> ./simulation -n 50 -p 30 -s 30; ./simulation -n 50 -f 4 -k 4;
+ -> ./simulation -n 70 -p 50 -s 50; ./simulation -n 70 -f 5 -k 5;
+ -> ...;
